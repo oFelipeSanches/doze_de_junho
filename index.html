@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Feliz Dia dos Namorados ❤️</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <button class="botao-musica" onclick="alternarMusica()" id="controle-musica">🎵 Tocar Música</button>
+
+    <audio id="bg-music" loop>
+        <source src="music.mp3" type="audio/mpeg">
+        Seu navegador não suporta áudio :(
+    </audio>
+
+  <div class="container">
+    <h1>Feliz Dia dos Namorados, Meu Amor ❤️</h1>
+    
+    <p>Estamos juntos há:</p>
+    <div id="contador" class="contador"></div>
+
+    <h2>Nossas lembranças 📸</h2>
+    <div class="galeria">
+
+        <figure>
+            <img src="img/pedido_fundo.jpg" alt="Foto 1">
+            <figcaption>Nosso pedido de namoro 💕</figcaption>
+        </figure>
+        <figure>
+            <img src="img/pedido_selfie.jpg" alt="Foto 2">
+            <figcaption>Aquele dia tão especial!</figcaption>
+        </figure>
+        <figure>
+            <img src="img/barolo.JPG" alt="Foto 3">
+            <figcaption>Nosso 1 mês juntos</figcaption>
+        </figure>
+        <figure>
+            <img src="img/castelo.JPG" alt="Foto 4">
+            <figcaption>Aquela tarde incrível</figcaption>
+        </figure>
+        <figure>
+            <img src="img/roda2.jpg" alt="Foto 5">
+            <figcaption>Na expo 2025</figcaption>
+        </figure>
+        <figure>
+            <img src="img/corrida.jpg" alt="Foto 6">
+            <figcaption>Na corrida</figcaption>
+        </figure>
+        <figure>
+            <img src="img/roxa.JPG" alt="Foto 7">
+            <figcaption>No cinema</figcaption>
+        </figure>
+        <figure>
+            <img src="img/academia.JPG" alt="Foto 8">
+            <figcaption>Na academia</figcaption>
+        </figure>
+
+    </div>
+
+    <div class="carrossel">
+    <button class="seta esquerda" onclick="mudarSlide(-1)">&#10094;</button>
+
+    <div class="slides">
+        <img src="img/olhando_ela_sorrindo.JPG" alt="Foto 9" class="slide ativo">
+        <img src="img/castelo.JPG" alt="Foto 10" class="slide">
+        <img src="img/espelho_nova.jpg" alt="Foto 11" class="slide">
+        <img src="img/ligacao.PNG" alt="Foto 12" class="slide">
+        <img src="img/macarrao.jpg" alt="Foto 13" class="slide">
+        <img src="img/ela_abraco.jpg" alt="Foto 14" class="slide">
+        <img src="img/carro_tremida.jpg" alt="Foto 15" class="slide">
+        <img src="img/chamando_caminhada.jpg" alt="Foto 16" class="slide">
+        <img src="img/churrasco.jpg" alt="Foto 17" class="slide">
+        <img src="img/cinema.JPG" alt="Foto 18" class="slide">
+        <img src="img/corinthians.jpg" alt="Foto 19" class="slide">
+        <img src="img/espelho.jpg" alt="Foto 20" class="slide">
+        <img src="img/esperando_cinema.JPG" alt="Foto 21" class="slide">
+        <img src="img/perdendo_mentira.jpg" alt="Foto 22" class="slide">
+        <img src="img/1_mes.jpg" alt="Foto 23" class="slide">
+        <img src="img/castelo2.JPG" alt="Foto 24" class="slide">
+        <img src="img/plein.JPG" alt="Foto 25" class="slide">
+        <img src="img/sentados_cinema1.JPG" alt="Foto 26" class="slide">
+        <img src="img/sentados_cinema2.JPG" alt="Foto 27" class="slide">
+        <img src="img/sorriso_dela.jpg" alt="Foto 28" class="slide">
+        <!-- Adicione mais imagens se quiser -->
+    </div>
+
+    <button class="seta direita" onclick="mudarSlide(1)">&#10095;</button>
+    </div>
+
+    <h2>Coisas que eu admiro em você 💌</h2>
+    <div class="frases">
+      <p>“A luz e a alegria que você transmite.”</p>
+      <p>“Eu te admiro quando você fica com o olhar estático, olhando para um ponto fixo, e parece que o mundo todo parou de tanto você raciocinar as coisas no seus pensamentos.”</p>
+      <p>“Você me acolhe e me faz sentir bem nos momentos difíceis, me trazendo um olhar diferente das coisas, com sabedoria.”</p>
+      <p>“Eu percebo que você realmente me entende mesmo sem me falar que entendeu.”</p>
+      <p>“Eu admiro quando você me surpreende querendo fazer coisas juntos, tipo comprar um jogo, treinar juntos, ou me chamar pra fazer alguma coisa aleatória.”</p>
+      <p>“Você é uma pessoa extremamente determinada.”</p>
+      <p>“Você é uma pessoa que se entende muito bem.”</p>
+      <p>“Você é uma pessoa que se doa para o relacionamento.”</p>
+      <p>“Eu admiro a sua paixão que você tem pelo handebol.”</p>
+      <p>“Eu admiro o seu talento de cantar, mesmo nunca cantando de verdade na minha frente, e nem para mim. kkkk”</p>
+      <p>“Eu admiro o seu senso de humor meio quebrado. kkk”</p>
+      <p>“Eu admiro a nossa parceria de como levamos o nosso relacionamento.”</p>
+      <p>“Eu amo quando você me manda mensagens do tipo “bom trabalho” ou “me avisa quando chegar”.”</p>
+      <p>“Eu amo conversar com você, todas nossas conversas são sempre muito profundas.”</p>
+      <p>“Eu admiro como você sabe respeitar o meu espaço e os meus limites.”</p>
+      <p>“A honestidade e a integridade que você carrega.”</p>
+      <p>“A ética com que você conduz a vida.”</p>
+      <p>“A bondade e o cuidado que você tem com as pessoas.”</p>
+      <p>“A forma como você me entende mesmo sem eu falar muito.”</p>
+      <p>“A leveza que você traz para os dias difíceis.”</p>
+      <p>“O apoio que você me dá, me incentivando a ser uma pessoa melhor.”</p>
+      <p>“A parceira que construimos juntos.”</p>
+      <p>“O cuidado nos detalhes.”</p>
+      <p>“O jeito que você me olha, com olhinhos brilhantes e interessados.”</p>
+      <p>“A força emocional que você tem diante dos desafios que você enfrenta.”</p>
+      <p>“A forma que você se entrega a cumprir as tarefas do dia a dia.”</p>
+      <p>“Você precisar de um tempo seu, para suas coisas.”</p>
+      <p>“A sua inteligência e curiosidade em aprender coisas novas.”</p>
+      <p>“A visão que você tem do mundo, cheio de empatia e sabedoria.”</p>
+      <p>“As conversas que nós temos que nos fazem crescer.”</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
